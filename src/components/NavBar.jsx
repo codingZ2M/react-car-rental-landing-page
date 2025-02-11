@@ -22,6 +22,7 @@ const NavBar = () => {
            <div className="md:hidden text-xl cursor-pointer z-50" onClick={toggleMenu}>
              {menuOpen ? <FaTimes className="text-[#071226]" /> : <FaBars className="text-[#071226]" />}
            </div>
+
            {/* Desktop Menu */}
            <ul
              className="md:flex gap-6 text-sm font-medium text-[#071226] hidden"
@@ -35,6 +36,7 @@ const NavBar = () => {
              <li className="cursor-pointer hover:text-[#3805F2]">Services</li>
              <li className="cursor-pointer hover:text-[#3805F2]">Contact</li>
            </ul>
+           
            {/* Mobile Menu */}
            {menuOpen && (
              <ul className="absolute top-16  w-[85%] bg-white shadow-md text-center flex flex-col gap-4 py-6 text-sm font-medium text-[#071226] md:hidden">

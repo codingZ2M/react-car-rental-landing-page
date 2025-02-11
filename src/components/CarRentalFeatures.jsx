@@ -2,6 +2,7 @@ import React from "react";
 import { FaCity, FaCarAlt, FaCreditCard, FaBook } from "react-icons/fa";
 
 const CarRentalFeatures = () => {
+  
   return (
     <div className="w-[90%] md:w-[80%] mx-auto bg-white pt-20 px-4 text-[#071226]">
       {/* Features Section */}
